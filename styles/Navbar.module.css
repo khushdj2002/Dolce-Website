@@ -1,0 +1,42 @@
+.container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 100px; 
+    font-size: 18px; 
+    align-items: center;
+}
+
+.listItem{
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #1c7cdc;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.list{
+    width: 100%;
+    text-align: right;
+    font-family: 'Michroma', sans-serif;
+}
+
+.listItem:hover{
+    color: #b04488;
+}
+
+.title{
+    color: #b04488;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    font-family: 'Carter One', cursive;
+    background-image: url('../Assets/logo.png');
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
